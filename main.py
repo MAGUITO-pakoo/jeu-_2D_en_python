@@ -8,7 +8,7 @@ from quitter import quitter_page
 
 pygame.init()
 
-#Paramètres d'affichage et audio
+#Paramètres d'affichage et audio..
 resolution = (950,600)
 screen_width, screen_height = resolution
 screen = pygame.display.set_mode(resolution)
@@ -48,7 +48,7 @@ while running :
                         current_page_name = "game"
 
 
-    ###Navigation entre les pages
+    ###Navigation entre les pages...
     if current_page_name == "home" :
         current_page_content = pages[0]
 
